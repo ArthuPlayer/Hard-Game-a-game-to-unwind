@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AnalogicoPulo_0: 754390808332610223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
