@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float velocidade = 5f;
 
-    private float moveInput;
+    [SerializeField] private float moveInput  = 1;
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer sprite;
@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(moveInput * velocidade * Time.deltaTime, 0, 0));
+        transform.position += new Vector3(velocidade * moveInput * Time.deltaTime, 0, 0);
     }
     
     // Chamados nos butoes

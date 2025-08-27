@@ -31,7 +31,7 @@ public class Jump : MonoBehaviour
         return estahNoPiso;
     }
 
-    void OnDrawGizmos()
+    private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(camadaPiso.transform.position, raio);
