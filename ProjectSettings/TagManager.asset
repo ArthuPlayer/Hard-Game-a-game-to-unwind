@@ -7,6 +7,9 @@ TagManager:
   - Piso
   - Trap
   - Parede
+  - ParedeEsquerda
+  - ParedeDireita
+  - Inimigo
   layers:
   - Default
   - TransparentFX
@@ -14,7 +17,7 @@ TagManager:
   - Chao
   - Water
   - UI
-  - 
+  - Pular
   - 
   - 
   - 
