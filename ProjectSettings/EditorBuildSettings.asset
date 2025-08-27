@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa.unity
     guid: a46ba2df562d9e14aab42bd242465ad0
   - enabled: 1
-    path: Assets/Scenes/Fase1.unity
+    path: Assets/Scenes/Tutorial.unity
     guid: 46d9d6dbd9217974b93d54c1c4ef6371
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
