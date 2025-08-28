@@ -30,12 +30,14 @@ public class PlayerMovement : MonoBehaviour
     {
         moveInput = -1;
         Debug.Log("O butao de mover pra esquerda esta funcionando");
+        Debug.Log("MoveInput: " + moveInput);
     }
 
     public void MoveRight()
     {
         moveInput = 1;
         Debug.Log("O butao de mover pra direita esta funcionando");
+        Debug.Log("MoveInput: " + moveInput);
     }
 
     public void StopMove()
