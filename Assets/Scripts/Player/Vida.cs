@@ -19,20 +19,17 @@ public class Vida : MonoBehaviour
     private void LevarDano(int dano)
     {
         vidaAtual = math.clamp(vidaAtual -= dano, 0, vidaMaxima);
-    }
 
-    public bool EstaVivo()
-    {
-        return estahVivo;
-    }
-
-    private void Morreu()
-    {
         if (vidaAtual <= 0)
         {
             estahVivo = false;
             rb.Sleep();
         }
+    }
+
+    public bool EstaVivo()
+    {
+        return estahVivo;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6435605535456934157}
   - component: {fileID: 8977412928126822225}
   m_Layer: 0
-  m_Name: EnemySheet_0
+  m_Name: EnemySlime
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
