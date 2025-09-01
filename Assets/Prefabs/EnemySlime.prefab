@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir: 1
-  velocidade: 2
+  velocidade: 3
 --- !u!114 &8977412928126822225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94cda9f84b3d4441b5275e4faff488a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forca: 500
+  forca: 700
   chao:
     serializedVersion: 2
     m_Bits: 8
