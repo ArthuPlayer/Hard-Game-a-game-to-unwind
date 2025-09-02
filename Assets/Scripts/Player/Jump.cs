@@ -19,7 +19,7 @@ public class Jump : MonoBehaviour
     {
         if (EstaNoPiso())
         {
-            rb.AddForce(Vector2.up * forcaPulo);
+            rb.AddForce(Vector2.up * forcaPulo, ForceMode2D.Impulse);
             Debug.Log("O butao de pulo esta funcionando");
         }
     }

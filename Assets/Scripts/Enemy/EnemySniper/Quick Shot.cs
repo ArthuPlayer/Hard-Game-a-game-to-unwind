@@ -1,7 +1,6 @@
-using System.Collections;
 using UnityEngine;
 
-public class Shoot : MonoBehaviour
+public class QuickShot : MonoBehaviour
 {
     [SerializeField] private float velocidade;
     [SerializeField] private Transform alvo;
@@ -22,21 +21,5 @@ public class Shoot : MonoBehaviour
         Vector2 direcao = alvo.position - transform.position;
         transform.position += (Vector3)direcao * velocidade * Time.deltaTime;
         Destroy(gameObject, tempoDestruir);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject)
-        {
-            Destroy(gameObject, 1.0f);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject)
-        {
-            Destroy(gameObject, 1.0f);
-        }
     }
 }

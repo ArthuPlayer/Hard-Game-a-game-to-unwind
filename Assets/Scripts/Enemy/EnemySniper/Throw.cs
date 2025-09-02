@@ -6,7 +6,19 @@ public class Throw : MonoBehaviour
     [SerializeField] private LayerMask playerMask;
     [SerializeField] private float tempoDeAtirar;
     [SerializeField] private GameObject tiroPrefab;
+    [SerializeField] private Transform mira;
 
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+
+        if (mira == null)
+        {
+            mira.position = transform.position;
+        }
+    }
     // Update is called once per frame
     void Update()
     {
@@ -15,7 +27,8 @@ public class Throw : MonoBehaviour
         if (tempoDeAtirar > 3 && EstahNoAlcance())
         {
             tempoDeAtirar = 0;
-            Instantiate(tiroPrefab, transform.position, transform.rotation);
+            Instantiate(tiroPrefab, mira.position, transform.rotation);
+            animator.SetTrigger("Shooting");
         }
     }
 

@@ -6,16 +6,13 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float velocidade = 5f;
-
     [SerializeField] private float moveInput  = 1;
-    private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer sprite;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
     }
 
@@ -28,7 +25,8 @@ public class PlayerMovement : MonoBehaviour
     // Chamados nos butoes
     public void MoveLeft()
     {
-        moveInput = -1;
+        moveInput = -1 ;
+        sprite.flipX = true;
         Debug.Log("O butao de mover pra esquerda esta funcionando");
         Debug.Log("MoveInput: " + moveInput);
     }
@@ -36,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     public void MoveRight()
     {
         moveInput = 1;
+        sprite.flipX = false;
         Debug.Log("O butao de mover pra direita esta funcionando");
         Debug.Log("MoveInput: " + moveInput);
     }
