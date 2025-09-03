@@ -9,7 +9,7 @@ public class JumpEnemy : MonoBehaviour
     private Animator animator;
     private Rigidbody2D body;
 
-    private void Update()
+    void Update()
     {
         if (EstaNoPiso())
         {
@@ -23,7 +23,7 @@ public class JumpEnemy : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
     }
 
-    private void Jumping()
+    public void Jumping()
     {
         body.AddForce(Vector2.up * forca);
         animator.SetBool("EstaNoAr", true);

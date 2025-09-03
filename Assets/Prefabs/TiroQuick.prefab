@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 3226615158607033738}
   - component: {fileID: 1930616113031693820}
   - component: {fileID: 3161372290963510861}
-  - component: {fileID: 1786471325470010740}
+  - component: {fileID: 7372456190977224993}
   m_Layer: 0
   m_Name: TiroQuick
-  m_TagString: Untagged
+  m_TagString: Tiro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1786471325470010740
+--- !u!114 &7372456190977224993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,9 +162,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5800215248742231178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e3d8ad5a2b0bc3418ee4d16b29caa8a, type: 3}
+  m_Script: {fileID: 11500000, guid: a0233315c77d08c448f724db4a108a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 2
   alvo: {fileID: 0}
-  tempoDestruir: 8
+  tempoDestruir: 3

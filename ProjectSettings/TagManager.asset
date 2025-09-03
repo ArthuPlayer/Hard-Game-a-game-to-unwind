@@ -10,6 +10,7 @@ TagManager:
   - ParedeEsquerda
   - ParedeDireita
   - Inimigo
+  - Tiro
   layers:
   - Default
   - TransparentFX
