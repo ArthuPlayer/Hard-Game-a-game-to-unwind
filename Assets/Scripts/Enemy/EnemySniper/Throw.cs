@@ -5,7 +5,9 @@ public class Throw : MonoBehaviour
     [SerializeField] private float raio;
     [SerializeField] private LayerMask playerMask;
     [SerializeField] private float tempoDeAtirar;
+    [SerializeField] private float tempoMaximo;
     [SerializeField] private GameObject tiroPrefab;
+    [SerializeField] private bool Boss;
 
     private Animator animator;
 
@@ -17,12 +19,20 @@ public class Throw : MonoBehaviour
     void Update()
     {
         tempoDeAtirar += Time.deltaTime;
-        
-        if (tempoDeAtirar > 3 && EstahNoAlcance())
+        Atirar();
+    }
+
+    public void Atirar()
+    {
+        if (tempoDeAtirar > tempoMaximo && EstahNoAlcance())
         {
             tempoDeAtirar = 0;
             Instantiate(tiroPrefab, transform.position, transform.rotation);
-            animator.SetTrigger("Shooting");
+
+            if (!Boss)
+            {
+                animator.SetTrigger("Shooting");
+            }
         }
     }
 

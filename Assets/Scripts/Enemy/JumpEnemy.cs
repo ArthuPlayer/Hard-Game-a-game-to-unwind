@@ -6,27 +6,35 @@ public class JumpEnemy : MonoBehaviour
     [SerializeField] private LayerMask chao;
     [SerializeField] private float raio = 0.25f;
     [SerializeField] private GameObject camadaChao;
+    [SerializeField] private GameObject alvo;
+    [SerializeField] private bool boss;
+
     private Animator animator;
-    private Rigidbody2D body;
+    private Rigidbody2D rb;
 
     void Update()
     {
-        if (EstaNoPiso())
-        {
-            animator.SetBool("EstaNoAr", false);
-        }
     }
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        body = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public void Jumping()
     {
-        body.AddForce(Vector2.up * forca);
-        animator.SetBool("EstaNoAr", true);
+        if (!boss)
+        {
+            rb.AddForce(Vector2.up * forca);
+        }
+
+        if (boss)
+        {
+            Vector2 direcao = (alvo.transform.position - Vector3.down) - transform.position;
+            rb.AddForce(direcao * forca, ForceMode2D.Impulse);
+        }
+
     }
 
     private bool EstaNoPiso()

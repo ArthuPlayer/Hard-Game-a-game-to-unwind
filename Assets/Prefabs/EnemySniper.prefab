@@ -203,5 +203,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   tempoDeAtirar: 0
+  tempoMaximo: 3
   tiroPrefab: {fileID: 5800215248742231178, guid: 018b695c8475d83408a1f432a4b7a295, type: 3}
-  mira: {fileID: 0}
+  Boss: 0
