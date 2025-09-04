@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94cda9f84b3d4441b5275e4faff488a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forca: 700
+  forca: 400
   chao:
     serializedVersion: 2
     m_Bits: 8
