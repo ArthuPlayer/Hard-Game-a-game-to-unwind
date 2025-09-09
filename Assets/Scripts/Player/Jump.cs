@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Jump : MonoBehaviour
@@ -8,11 +9,12 @@ public class Jump : MonoBehaviour
     [SerializeField] private LayerMask chao;
     
     private Rigidbody2D rb;
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        animator = GetComponent<Animator>();
     }
 
     public void Pulo()
@@ -20,6 +22,8 @@ public class Jump : MonoBehaviour
         if (EstaNoPiso())
         {
             rb.AddForce(Vector2.up * forcaPulo, ForceMode2D.Impulse);
+            animator.SetTrigger("Pulo");
+            animator.SetBool("EstahNoPiso", false);
             Debug.Log("O butao de pulo esta funcionando");
         }
     }
@@ -28,6 +32,14 @@ public class Jump : MonoBehaviour
     {
         bool estahNoPiso = Physics2D.OverlapCircle(camadaPiso.transform.position, raio, chao);
         return estahNoPiso;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Piso"))
+        {
+            animator.SetBool("EstahNoPiso", true);
+        }
     }
 
     private void OnDrawGizmosSelected()

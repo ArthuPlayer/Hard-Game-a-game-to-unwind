@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     {
         moveInput = -1 ;
         sprite.flipX = true;
+        animator.SetBool("Run", true);
         Debug.Log("O butao de mover pra esquerda esta funcionando");
         Debug.Log("MoveInput: " + moveInput);
     }
@@ -40,12 +41,14 @@ public class PlayerMovement : MonoBehaviour
     {
         moveInput = 1;
         sprite.flipX = false;
+        animator.SetBool("Run", true);
         Debug.Log("O butao de mover pra direita esta funcionando");
         Debug.Log("MoveInput: " + moveInput);
     }
 
     public void StopMove()
     {
+        animator.SetBool("Run", false);
         moveInput = 0;
     }
 
