@@ -29,7 +29,7 @@ public class Throw : MonoBehaviour
             tempoDeAtirar = 0;
             Instantiate(tiroPrefab, transform.position, transform.rotation);
 
-            if (!Boss)
+            if (Boss)
             {
                 animator.SetTrigger("Shooting");
             }

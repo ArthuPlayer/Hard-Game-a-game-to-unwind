@@ -1,8 +1,11 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class RotinaBoss : MonoBehaviour
 {
+    [SerializeField] private float tempoDeTocar;
     private JumpEnemy m_JumpEnemy;
     private Throw m_throw;
     private Animator animator;
@@ -14,6 +17,10 @@ public class RotinaBoss : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    void Update()
+    {
+        tempoDeTocar += Time.deltaTime;
+    }
     IEnumerator OrganizaTarefas()
     {
         animator.SetTrigger("Shoot");
@@ -35,16 +42,18 @@ public class RotinaBoss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) // Toca no Player e inicia a rotina
+        if (collision.gameObject.CompareTag("Player") && tempoDeTocar >= 3) // Toca no Player e inicia a rotina
         {
+            tempoDeTocar = 0;
             StartCoroutine(OrganizaTarefas());
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) // Toca no Player e inicia a rotina
+        if (collision.gameObject.CompareTag("Player") && tempoDeTocar >= 5) // Toca no Player e inicia a rotina
         {
+            tempoDeTocar = 0;
             StartCoroutine(OrganizaTarefas());
         }
     }
