@@ -1,0 +1,1550 @@
+fileFormatVersion: 2
+guid: 13b58d778dad8844eb2664a6989fb6cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -368852058628003676
+    second: SpritesDeVida_0
+  - first:
+      213: -1909950328326686323
+    second: SpritesDeVida_1
+  - first:
+      213: -3033182026588826893
+    second: SpritesDeVida_2
+  - first:
+      213: 7135235442259598533
+    second: SpritesDeVida_3
+  - first:
+      213: 8426649523774165487
+    second: SpritesDeVida_4
+  - first:
+      213: 6964694588595126562
+    second: SpritesDeVida_5
+  - first:
+      213: -7228630210794307103
+    second: SpritesDeVida_6
+  - first:
+      213: -1157550708294400
+    second: SpritesDeVida_7
+  - first:
+      213: 5171513926796893296
+    second: SpritesDeVida_8
+  - first:
+      213: 3806552190173901331
+    second: SpritesDeVida_9
+  - first:
+      213: 7161638282605700491
+    second: SpritesDeVida_10
+  - first:
+      213: -856891063401587953
+    second: SpritesDeVida_11
+  - first:
+      213: -7579761284523450409
+    second: SpritesDeVida_12
+  - first:
+      213: -801646855602527262
+    second: SpritesDeVida_13
+  - first:
+      213: -2081863965118211231
+    second: SpritesDeVida_14
+  - first:
+      213: -526795848058176231
+    second: SpritesDeVida_15
+  - first:
+      213: 5323750867796841349
+    second: SpritesDeVida_16
+  - first:
+      213: 7621221555146806402
+    second: SpritesDeVida_17
+  - first:
+      213: 3553829610741469566
+    second: SpritesDeVida_18
+  - first:
+      213: 4110964512440915933
+    second: SpritesDeVida_19
+  - first:
+      213: 831715387042015938
+    second: SpritesDeVida_20
+  - first:
+      213: -5419573838055887422
+    second: SpritesDeVida_21
+  - first:
+      213: -2850441054258752012
+    second: SpritesDeVida_22
+  - first:
+      213: 8613443864352873136
+    second: SpritesDeVida_23
+  - first:
+      213: -3305897767597810346
+    second: SpritesDeVida_24
+  - first:
+      213: -6713074978474099800
+    second: SpritesDeVida_25
+  - first:
+      213: -6453629791910686760
+    second: SpritesDeVida_26
+  - first:
+      213: -2432964415131825044
+    second: SpritesDeVida_27
+  - first:
+      213: -6369587499739298314
+    second: SpritesDeVida_28
+  - first:
+      213: 28020761600987911
+    second: SpritesDeVida_29
+  - first:
+      213: -2138001026901194905
+    second: SpritesDeVida_30
+  - first:
+      213: 2044210522226656352
+    second: SpritesDeVida_31
+  - first:
+      213: 7475222709751880924
+    second: SpritesDeVida_32
+  - first:
+      213: -5072135347553487518
+    second: SpritesDeVida_33
+  - first:
+      213: 7756723413980732124
+    second: SpritesDeVida_34
+  - first:
+      213: -7624831139268344424
+    second: SpritesDeVida_35
+  - first:
+      213: -5923597781374446312
+    second: SpritesDeVida_36
+  - first:
+      213: -750965060470198114
+    second: SpritesDeVida_37
+  - first:
+      213: -6171450116240067818
+    second: SpritesDeVida_38
+  - first:
+      213: 1750174007275542555
+    second: SpritesDeVida_39
+  - first:
+      213: 1510525685555034837
+    second: SpritesDeVida_40
+  - first:
+      213: 4676521279657243148
+    second: SpritesDeVida_41
+  - first:
+      213: 2792299914386873026
+    second: SpritesDeVida_42
+  - first:
+      213: 4349965246789306326
+    second: SpritesDeVida_43
+  - first:
+      213: 659643284218033044
+    second: SpritesDeVida_44
+  - first:
+      213: -3247285053353801482
+    second: SpritesDeVida_45
+  - first:
+      213: 1756200873041843749
+    second: SpritesDeVida_46
+  - first:
+      213: -8652608839758096705
+    second: SpritesDeVida_47
+  - first:
+      213: -2604414071983047390
+    second: SpritesDeVida_48
+  - first:
+      213: 5161855870532094700
+    second: SpritesDeVida_49
+  - first:
+      213: 2199591852766282560
+    second: SpritesDeVida_50
+  - first:
+      213: 7922025731414269581
+    second: SpritesDeVida_51
+  - first:
+      213: -7375712070540885700
+    second: SpritesDeVida_52
+  - first:
+      213: 7061979133922646299
+    second: SpritesDeVida_53
+  - first:
+      213: -3704393724105634627
+    second: SpritesDeVida_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpritesDeVida_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a86ec6c10391eaf0800000000000000
+      internalID: -368852058628003676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d897275bb4e7e75e0800000000000000
+      internalID: -1909950328326686323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 258
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2d21e6409f7e5d0800000000000000
+      internalID: -3033182026588826893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 227
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc19a4a4d2750360800000000000000
+      internalID: 7135235442259598533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe11647781971f470800000000000000
+      internalID: 8426649523774165487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2214c4ae3d097a060800000000000000
+      internalID: 6964694588595126562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 195
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1c2f84f1fbeab90800000000000000
+      internalID: -7228630210794307103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00df839b633ebfff0800000000000000
+      internalID: -1157550708294400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 195
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cd6bd3488e4c740800000000000000
+      internalID: 5171513926796893296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 192
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312fc4a8c0793d430800000000000000
+      internalID: 3806552190173901331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 161
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b852d84f210436360800000000000000
+      internalID: 7161638282605700491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 160
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bddba2e16bb14f0800000000000000
+      internalID: -856891063401587953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 162
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df98b165474fc690800000000000000
+      internalID: -7579761284523450409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 160
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3a080ae6affd4f0800000000000000
+      internalID: -801646855602527262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 163
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b517001cbbb13e0800000000000000
+      internalID: -2081863965118211231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 160
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d775f97f170b8f0800000000000000
+      internalID: -526795848058176231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 163
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58355b33533c1e940800000000000000
+      internalID: 5323750867796841349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 160
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284531d10a404c960800000000000000
+      internalID: 7621221555146806402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_18
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 163
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e719284b33db15130800000000000000
+      internalID: 3553829610741469566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 162
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7174871741d0930800000000000000
+      internalID: 4110964512440915933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 160
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2caadd6ecb8da8b00800000000000000
+      internalID: 831715387042015938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 160
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdada4fe4ec9c4b0800000000000000
+      internalID: -5419573838055887422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 163
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f597b3a6f23178d0800000000000000
+      internalID: -2850441054258752012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 162
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba55830f89198770800000000000000
+      internalID: 8613443864352873136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d539aee771f12d0800000000000000
+      internalID: -3305897767597810346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abfc7ddfdd56d2a0800000000000000
+      internalID: -6713074978474099800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df0945a5e91076a0800000000000000
+      internalID: -6453629791910686760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cc6ec31cf5c3ed0800000000000000
+      internalID: -2432964415131825044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f54540aaedaa97a0800000000000000
+      internalID: -6369587499739298314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7031095fbbc836000800000000000000
+      internalID: 28020761600987911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7674226c46b4452e0800000000000000
+      internalID: -2138001026901194905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0648f67a3ae7e5c10800000000000000
+      internalID: 2044210522226656352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_32
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc91b7f2735db760800000000000000
+      internalID: 7475222709751880924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2653f5456c72c99b0800000000000000
+      internalID: -5072135347553487518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_34
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 131
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdad64f19da65ab60800000000000000
+      internalID: 7756723413980732124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 98
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895c2971a782f2690800000000000000
+      internalID: -7624831139268344424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81552e0d3372bcda0800000000000000
+      internalID: -5923597781374446312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90b1fb91490495f0800000000000000
+      internalID: -750965060470198114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613b77821da9a5aa0800000000000000
+      internalID: -6171450116240067818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_39
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18d7ce9cfdd94810800000000000000
+      internalID: 1750174007275542555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_40
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da7c9f9b1776f410800000000000000
+      internalID: 1510525685555034837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_41
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02768a935756e040800000000000000
+      internalID: 4676521279657243148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_42
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 96
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca12675afd30c620800000000000000
+      internalID: 2792299914386873026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_43
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7cb28485e2e5c30800000000000000
+      internalID: 4349965246789306326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_44
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493b9427216872900800000000000000
+      internalID: 659643284218033044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 96
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f84966e2735fe2d0800000000000000
+      internalID: -3247285053353801482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_46
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526d3e7a3674f5810800000000000000
+      internalID: 1756200873041843749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb650dd8a12cbe780800000000000000
+      internalID: -8652608839758096705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_48
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 66
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dfb6743334bdbd0800000000000000
+      internalID: -2604414071983047390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_49
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea84d8c09892a740800000000000000
+      internalID: 5161855870532094700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_50
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 66
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0434afad225868e10800000000000000
+      internalID: 2199591852766282560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_51
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 66
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e93761e60b0fd60800000000000000
+      internalID: 7922025731414269581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_52
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 66
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3189d533f434a990800000000000000
+      internalID: -7375712070540885700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesDeVida_53
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 66
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b191ea83b90310260800000000000000
+      internalID: 7061979133922646299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ab9ffbc07435189439084a162c2a29ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpritesDeVida_0: -368852058628003676
+      SpritesDeVida_1: -1909950328326686323
+      SpritesDeVida_10: 7161638282605700491
+      SpritesDeVida_11: -856891063401587953
+      SpritesDeVida_12: -7579761284523450409
+      SpritesDeVida_13: -801646855602527262
+      SpritesDeVida_14: -2081863965118211231
+      SpritesDeVida_15: -526795848058176231
+      SpritesDeVida_16: 5323750867796841349
+      SpritesDeVida_17: 7621221555146806402
+      SpritesDeVida_18: 3553829610741469566
+      SpritesDeVida_19: 4110964512440915933
+      SpritesDeVida_2: -3033182026588826893
+      SpritesDeVida_20: 831715387042015938
+      SpritesDeVida_21: -5419573838055887422
+      SpritesDeVida_22: -2850441054258752012
+      SpritesDeVida_23: 8613443864352873136
+      SpritesDeVida_24: -3305897767597810346
+      SpritesDeVida_25: -6713074978474099800
+      SpritesDeVida_26: -6453629791910686760
+      SpritesDeVida_27: -2432964415131825044
+      SpritesDeVida_28: -6369587499739298314
+      SpritesDeVida_29: 28020761600987911
+      SpritesDeVida_3: 7135235442259598533
+      SpritesDeVida_30: -2138001026901194905
+      SpritesDeVida_31: 2044210522226656352
+      SpritesDeVida_32: 7475222709751880924
+      SpritesDeVida_33: -5072135347553487518
+      SpritesDeVida_34: 7756723413980732124
+      SpritesDeVida_35: -7624831139268344424
+      SpritesDeVida_36: -5923597781374446312
+      SpritesDeVida_37: -750965060470198114
+      SpritesDeVida_38: -6171450116240067818
+      SpritesDeVida_39: 1750174007275542555
+      SpritesDeVida_4: 8426649523774165487
+      SpritesDeVida_40: 1510525685555034837
+      SpritesDeVida_41: 4676521279657243148
+      SpritesDeVida_42: 2792299914386873026
+      SpritesDeVida_43: 4349965246789306326
+      SpritesDeVida_44: 659643284218033044
+      SpritesDeVida_45: -3247285053353801482
+      SpritesDeVida_46: 1756200873041843749
+      SpritesDeVida_47: -8652608839758096705
+      SpritesDeVida_48: -2604414071983047390
+      SpritesDeVida_49: 5161855870532094700
+      SpritesDeVida_5: 6964694588595126562
+      SpritesDeVida_50: 2199591852766282560
+      SpritesDeVida_51: 7922025731414269581
+      SpritesDeVida_52: -7375712070540885700
+      SpritesDeVida_53: 7061979133922646299
+      SpritesDeVida_6: -7228630210794307103
+      SpritesDeVida_7: -1157550708294400
+      SpritesDeVida_8: 5171513926796893296
+      SpritesDeVida_9: 3806552190173901331
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

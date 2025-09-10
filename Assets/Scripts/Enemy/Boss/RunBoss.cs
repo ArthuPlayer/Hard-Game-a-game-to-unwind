@@ -4,13 +4,13 @@ public class RunBoss : MonoBehaviour
 {
     [SerializeField] private float velocidade;
     [SerializeField] private GameObject alvo;
-    private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer sprite;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
 
         if (alvo == null)
         {
@@ -26,7 +26,18 @@ public class RunBoss : MonoBehaviour
     public void Corrida()
     {
         animator.SetBool("Run", true);
-        Vector2 direcao = alvo.transform.position - transform.position;
-        transform.position += (Vector3)direcao * velocidade * Time.deltaTime;
+        float direcao = alvo.transform.position.x - transform.position.x;
+
+        if (alvo.transform.position.x > transform.position.x)
+        {
+            sprite.flipX = false;
+        }
+
+        if (alvo.transform.position.x <  transform.position.x)
+        {
+            sprite.flipX = true;
+        }
+
+        transform.position += new Vector3(direcao * velocidade * Time.deltaTime, 0, 0);
     }
 }

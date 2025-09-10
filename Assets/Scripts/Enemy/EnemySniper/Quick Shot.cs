@@ -7,11 +7,12 @@ public class QuickShot : MonoBehaviour
     [SerializeField] private float tempoDestruir;
 
     private Vida vida;
+    private PlayerMovement pMove;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        vida = GetComponent<Vida>();
+        pMove = GetComponent<PlayerMovement>();
 
         if (alvo == null)
         {
@@ -25,23 +26,5 @@ public class QuickShot : MonoBehaviour
         Vector2 direcao = (alvo.position - Vector3.down) - transform.position;
         transform.position += (Vector3)direcao * velocidade * Time.deltaTime;
         Destroy(gameObject, tempoDestruir);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("O Player tomou dano");
-            vida.LevarDano(1);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("O Player tomou dano");
-            vida.LevarDano(1);
-        }
     }
 }

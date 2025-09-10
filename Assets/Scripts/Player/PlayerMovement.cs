@@ -7,22 +7,19 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float velocidade = 5f;
     [SerializeField] private float moveInput  = 1;
-
-    private PauseMenu pauseMenu;
-    private Vida vida;
+    [SerializeField] private RunBoss RBoss;
     private Animator animator;
     private SpriteRenderer sprite;
 
     void Start()
     {
-        pauseMenu = GetComponent<PauseMenu>();
-        vida = GetComponent<Vida>();
+        RBoss = GetComponent<RunBoss>();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position += new Vector3(velocidade * moveInput * Time.deltaTime, 0, 0);
     }
