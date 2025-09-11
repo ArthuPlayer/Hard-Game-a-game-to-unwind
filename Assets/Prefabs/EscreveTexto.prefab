@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0acc9ebb4fe36ff47950d3459dc55786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: {fileID: 0}
+  texto: {fileID: 1744193359809480398, guid: a10f362ba5ee09b4292146cffc48fbc6, type: 3}
   mensagens:
   - Oi Bom dia
   velocidadeDigitacao: 0.05

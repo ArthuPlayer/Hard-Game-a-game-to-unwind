@@ -129,8 +129,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.04716576, y: -0.9218965}
-  m_Size: {x: 1.0755515, y: 2.0705335}
+  m_Offset: {x: 0.0735654, y: -0.9705795}
+  m_Size: {x: 0.8467561, y: 1.9731677}
   m_Direction: 0
 --- !u!50 &2431394125376061595
 Rigidbody2D:
@@ -148,7 +148,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4491dd75e6ad8f045b7051fe7e4644e0, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

@@ -5,6 +5,7 @@ using UnityEngine;
 public class EscreveTexto : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI texto;
+    [SerializeField] private GameObject Imagem;
     [SerializeField] private string[] mensagens;  // Array de mensagens
     [SerializeField] private float velocidadeDigitacao = 0.05f;
     [SerializeField] private float tempoDestruir = 3;
@@ -15,6 +16,8 @@ public class EscreveTexto : MonoBehaviour
 
     void Start()
     {
+        Imagem.SetActive(false);
+
         if (texto != null)
         {
             texto.text = "";
@@ -32,6 +35,7 @@ public class EscreveTexto : MonoBehaviour
 
     private IEnumerator DigitarTexto()
     {
+        Imagem.SetActive(true);
         escrevendo = true;
         texto.text = "";
 
@@ -45,6 +49,7 @@ public class EscreveTexto : MonoBehaviour
 
         yield return new WaitForSeconds(tempoDestruir);
         texto.text = "";
+        Imagem.SetActive(false);
         indiceMensagem++;
         escrevendo = false;
     }
