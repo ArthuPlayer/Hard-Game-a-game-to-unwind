@@ -1,12 +1,16 @@
+using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Vida : MonoBehaviour
 {
     [SerializeField] private int vidaAtual;
     [SerializeField] private int vidaMaxima = 2;
+    [SerializeField] private float tempoDeDestruir = 1f;
     [SerializeField] private bool player;
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator imageAnim;
+    [SerializeField] private Animator PlayerAnim;
 
     private bool estahVivo;
     private Rigidbody2D rb;
@@ -15,6 +19,16 @@ public class Vida : MonoBehaviour
     {
         vidaAtual = vidaMaxima;
         rb = GetComponent<Rigidbody2D>();
+
+        if (imageAnim == null)
+        {
+            imageAnim = null;
+        }
+
+        if (PlayerAnim == null)
+        {
+            PlayerAnim = GetComponent<Animator>();
+        }
     }
 
     public void LevarDano(int dano)
@@ -29,11 +43,11 @@ public class Vida : MonoBehaviour
         {
             if (vidaAtual == 1)
             {
-                animator.SetTrigger("MeiaVida");
+                imageAnim.SetTrigger("MeiaVida");
             }
             else if (vidaAtual == 0)
             {
-                animator.SetTrigger("SemVida");
+                imageAnim.SetTrigger("SemVida");
             }
         }
 
@@ -46,6 +60,13 @@ public class Vida : MonoBehaviour
     public bool EstaVivo()
     {
         return estahVivo;
+    }
+
+
+    IEnumerator TempoReiniciar(float tempo)
+    {
+        yield return new WaitForSeconds(tempo);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -63,6 +84,12 @@ public class Vida : MonoBehaviour
         if (collision.gameObject.CompareTag("Tiro") && player) // E player
         {
             LevarDano(1);
+        }
+
+        if (collision.gameObject.CompareTag("Trap") && player)
+        {
+            PlayerAnim.SetBool("Dead", true);
+            StartCoroutine(TempoReiniciar(tempoDeDestruir));
         }
     }
 

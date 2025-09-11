@@ -808,11 +808,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 47e87b32-0098-45ec-9122-739e11daa547
+  cloudProjectId: 71258e5b-34b7-4bf2-9e40-2044d19ee3f9
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Hard-Game-a-game-to-unwind
-  organizationId: arthurgelenske
+  projectName: HardGame
+  organizationId: adms-games
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

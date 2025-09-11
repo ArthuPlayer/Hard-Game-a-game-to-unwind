@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8665902655362674251}
   - component: {fileID: 6435605535456934157}
   - component: {fileID: 8977412928126822225}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemySlime
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -218,8 +218,10 @@ MonoBehaviour:
   chao:
     serializedVersion: 2
     m_Bits: 8
-  raio: 0.6
+  raio: 0.25
   camadaChao: {fileID: 4755458606823816075}
+  alvo: {fileID: 0}
+  boss: 0
 --- !u!1 &4755458606823816075
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 504001085399132400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: camadaChao
   m_TagString: Untagged
   m_Icon: {fileID: 0}

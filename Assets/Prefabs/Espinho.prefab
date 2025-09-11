@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8239038844734078773}
   - component: {fileID: 1167139509790576096}
   - component: {fileID: 713356389752500869}
+  - component: {fileID: 1492894439739362144}
   m_Layer: 0
   m_Name: Espinho
   m_TagString: Trap
@@ -147,3 +148,16 @@ PolygonCollider2D:
       - {x: 0.157332, y: -0.06385148}
       - {x: 0.111424, y: -0.023381595}
   m_UseDelaunayMesh: 0
+--- !u!114 &1492894439739362144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975676357172006595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b40695daa1683147a05c2557ffde9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5639783054460858657, guid: fac0a0554f75591409af266fe1c1ce29, type: 3}
