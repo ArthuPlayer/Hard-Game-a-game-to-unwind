@@ -82,8 +82,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 1744193359809480398, guid: a10f362ba5ee09b4292146cffc48fbc6, type: 3}
+  imagem: {fileID: 1855706287031884935, guid: 4c4c3a84f3ed25645b95c87b67d82638, type: 3}
   mensagens:
   - Oi Bom dia
   velocidadeDigitacao: 0.05
   tempoDestruir: 2
   corDoTexto: {r: 1, g: 1, b: 1, a: 1}
+  butaoRestart: {fileID: 5021581033646638431, guid: 96dfce70bca5f654aa1d353952c1f1a4, type: 3}

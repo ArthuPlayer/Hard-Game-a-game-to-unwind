@@ -1,23 +1,24 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EscreveTexto : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI texto;
-    [SerializeField] private GameObject Imagem;
+    [SerializeField] private Image imagem;
     [SerializeField] private string[] mensagens;  // Array de mensagens
     [SerializeField] private float velocidadeDigitacao = 0.05f;
     [SerializeField] private float tempoDestruir = 3;
     [SerializeField] private Color corDoTexto = Color.white;
+    [SerializeField] private GameObject butaoRestart;
 
     private bool escrevendo = false;
     private int indiceMensagem = 0; // Qual mensagem está sendo exibida
 
     void Start()
     {
-        Imagem.SetActive(false);
-
         if (texto != null)
         {
             texto.text = "";
@@ -25,17 +26,51 @@ public class EscreveTexto : MonoBehaviour
         }
     }
 
+    void Awake()
+    {
+        //imagem.GameObject.SetActive(true);
+        //butaoRestart.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (texto.text != "")
+        {
+            escrevendo = true;
+        }
+        else
+        {
+            escrevendo = false;
+        }
+
+        if (escrevendo == false)
+        {
+            //imagem.SetActive(false);
+            //butaoRestart.SetActive(true);
+        }
+        else
+        {
+            //imagem.SetActive(true);
+            //butaoRestart.SetActive(true);
+        }
+    }
+
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !escrevendo && indiceMensagem < mensagens.Length)
+        if (other.CompareTag("Player") && !escrevendo && indiceMensagem == 0)
         {
+            //imagem.SetActive(true);
             StartCoroutine(DigitarTexto());
         }
     }
 
     private IEnumerator DigitarTexto()
     {
-        Imagem.SetActive(true);
         escrevendo = true;
         texto.text = "";
 
@@ -49,7 +84,9 @@ public class EscreveTexto : MonoBehaviour
 
         yield return new WaitForSeconds(tempoDestruir);
         texto.text = "";
-        Imagem.SetActive(false);
+        //Time.timeScale = 0f;
+        //imagem.SetActive(false);
+        //butaoRestart.SetActive(true);
         indiceMensagem++;
         escrevendo = false;
     }

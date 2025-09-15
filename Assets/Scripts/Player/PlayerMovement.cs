@@ -7,13 +7,11 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float velocidade = 5f;
     [SerializeField] private float moveInput  = 1;
-    [SerializeField] private RunBoss RBoss;
     private Animator animator;
     private SpriteRenderer sprite;
 
     void Start()
     {
-        RBoss = GetComponent<RunBoss>();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
     }
