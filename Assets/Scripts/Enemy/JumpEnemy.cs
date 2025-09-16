@@ -9,16 +9,12 @@ public class JumpEnemy : MonoBehaviour
     [SerializeField] private GameObject alvo;
     [SerializeField] private bool boss;
 
-    private Animator animator;
+    private Animator animador;
     private Rigidbody2D rb;
-
-    void Update()
-    {
-    }
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animador = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
