@@ -1,5 +1,6 @@
 using System.Collections;
 using Unity.Mathematics;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,14 +12,14 @@ public class Vida : MonoBehaviour
     [SerializeField] private bool player;
     [SerializeField] private Animator imageAnim;
     [SerializeField] private Animator PlayerAnim;
+    [SerializeField] private bool cenaBoss;
+    [SerializeField] private GameObject gameOver;
 
-    private bool estahVivo;
-    private Rigidbody2D rb;
+    private bool estahVivo = true;
 
     void Start()
     {
         vidaAtual = vidaMaxima;
-        rb = GetComponent<Rigidbody2D>();
 
         if (imageAnim == null)
         {
@@ -53,7 +54,12 @@ public class Vida : MonoBehaviour
 
         if (vidaAtual <= 0)
         {
-            estahVivo = false;
+            if (player)
+            {
+                PlayerAnim.SetBool("Dead", true);
+                StartCoroutine(TempoReiniciar(tempoDeDestruir));
+            }
+            estahVivo = true;
         }
     }
 

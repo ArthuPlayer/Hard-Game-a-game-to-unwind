@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class EscreveTexto : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI texto;
-    [SerializeField] private Image imagem;
+    [SerializeField] private GameObject imagem;
     [SerializeField] private string[] mensagens;  // Array de mensagens
     [SerializeField] private float velocidadeDigitacao = 0.05f;
     [SerializeField] private float tempoDestruir = 3;
@@ -19,6 +19,8 @@ public class EscreveTexto : MonoBehaviour
 
     void Start()
     {
+        imagem.SetActive(false);
+
         if (texto != null)
         {
             texto.text = "";
@@ -28,7 +30,7 @@ public class EscreveTexto : MonoBehaviour
 
     void Awake()
     {
-        //imagem.GameObject.SetActive(true);
+
         //butaoRestart.SetActive(false);
     }
 
@@ -37,27 +39,13 @@ public class EscreveTexto : MonoBehaviour
         if (texto.text != "")
         {
             escrevendo = true;
+            imagem.SetActive(true);
         }
         else
         {
             escrevendo = false;
+            imagem.SetActive(false);
         }
-
-        if (escrevendo == false)
-        {
-            //imagem.SetActive(false);
-            //butaoRestart.SetActive(true);
-        }
-        else
-        {
-            //imagem.SetActive(true);
-            //butaoRestart.SetActive(true);
-        }
-    }
-
-    public void Restart()
-    {
-        Time.timeScale = 1f;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -84,9 +72,6 @@ public class EscreveTexto : MonoBehaviour
 
         yield return new WaitForSeconds(tempoDestruir);
         texto.text = "";
-        //Time.timeScale = 0f;
-        //imagem.SetActive(false);
-        //butaoRestart.SetActive(true);
         indiceMensagem++;
         escrevendo = false;
     }

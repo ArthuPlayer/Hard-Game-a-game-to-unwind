@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 1744193359809480398, guid: a10f362ba5ee09b4292146cffc48fbc6, type: 3}
-  imagem: {fileID: 1855706287031884935, guid: 4c4c3a84f3ed25645b95c87b67d82638, type: 3}
+  imagem: {fileID: 7456927999307459584, guid: 4c4c3a84f3ed25645b95c87b67d82638, type: 3}
   mensagens:
   - Oi Bom dia
   velocidadeDigitacao: 0.05
