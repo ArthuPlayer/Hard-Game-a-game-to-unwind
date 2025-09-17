@@ -209,6 +209,7 @@ MonoBehaviour:
   player: 1
   imageAnim: {fileID: 0}
   PlayerAnim: {fileID: 5639783054460858657}
+  cenaBoss: 0
 --- !u!95 &5639783054460858657
 Animator:
   serializedVersion: 7
@@ -290,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 9208094435349714992}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.4794972, y: 3.4021113, z: -14.365179}
+  m_LocalPosition: {x: 0.27, y: 0.09, z: -14.365179}
   m_LocalScale: {x: 1.358895, y: 1.3348377, z: 1.4235231}
   m_ConstrainProportionsScale: 0
   m_Children: []

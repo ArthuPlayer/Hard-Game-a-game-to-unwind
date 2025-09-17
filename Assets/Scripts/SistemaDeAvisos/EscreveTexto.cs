@@ -26,6 +26,11 @@ public class EscreveTexto : MonoBehaviour
             texto.text = "";
             texto.color = corDoTexto;
         }
+
+        if (imagem == null)
+        {
+            Destroy(imagem);
+        }
     }
 
     void Awake()

@@ -1,6 +1,5 @@
 using System.Collections;
 using Unity.Mathematics;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,10 +9,12 @@ public class Vida : MonoBehaviour
     [SerializeField] private int vidaMaxima = 2;
     [SerializeField] private float tempoDeDestruir = 1f;
     [SerializeField] private bool player;
+    [SerializeField] private bool boss;
     [SerializeField] private Animator imageAnim;
     [SerializeField] private Animator PlayerAnim;
+    [SerializeField] private Animator BossAnim;
+    [SerializeField] private Animator InimigoAnim;
     [SerializeField] private bool cenaBoss;
-    [SerializeField] private GameObject gameOver;
 
     private bool estahVivo = true;
 
@@ -90,6 +91,16 @@ public class Vida : MonoBehaviour
         if (collision.gameObject.CompareTag("Tiro") && player) // E player
         {
             LevarDano(1);
+        }
+
+        if (collision.gameObject.CompareTag("TiroPlayer") && !player)
+        {
+            if (boss)
+            {
+                //BossAnim.SetBool("LevouDano", true);
+                LevarDano(1);
+            }
+
         }
 
         if (collision.gameObject.CompareTag("Trap") && player)
