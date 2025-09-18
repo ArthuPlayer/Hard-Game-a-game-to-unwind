@@ -220,6 +220,8 @@ MonoBehaviour:
     m_Bits: 8
   raio: 0.6
   camadaChao: {fileID: 4755458606823816075}
+  alvo: {fileID: 0}
+  boss: 0
 --- !u!1 &4755458606823816075
 GameObject:
   m_ObjectHideFlags: 0
