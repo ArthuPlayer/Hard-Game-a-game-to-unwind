@@ -16,6 +16,7 @@ public class AttackPlayer : MonoBehaviour
     {
         if (tempoTiro >= couldownTiro)
         {
+            tempoTiro = 0;
             Instantiate(tiroPrefab, miraPrefab.position, transform.rotation);
         }
     }

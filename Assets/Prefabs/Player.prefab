@@ -282,7 +282,7 @@ MonoBehaviour:
   tiroPrefab: {fileID: 7383211473797949672, guid: d0a5769dcd2f1244f83a9cd5d2a33489, type: 3}
   miraPrefab: {fileID: 2895826417563462812}
   tempoTiro: 0
-  couldownTiro: 3
+  couldownTiro: 2
 --- !u!1 &4518166754930916643
 GameObject:
   m_ObjectHideFlags: 0

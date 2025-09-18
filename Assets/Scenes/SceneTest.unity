@@ -5771,10 +5771,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4448477070746766231, guid: c9032b7d273a42a4dbd2a3fa6e63b586, type: 3}
-      propertyPath: m_TagString
-      value: Inimigo
-      objectReference: {fileID: 0}
     - target: {fileID: 8977412928126822225, guid: c9032b7d273a42a4dbd2a3fa6e63b586, type: 3}
       propertyPath: forca
       value: 500

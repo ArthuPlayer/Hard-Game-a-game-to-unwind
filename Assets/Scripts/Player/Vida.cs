@@ -62,8 +62,9 @@ public class Vida : MonoBehaviour
             else
             {
                 InimigoAnim.SetBool("Morreu", true);
+                Destroy(gameObject, 0.5f);
             }
-            estahVivo = true;
+            estahVivo = false;
         }
     }
     public bool EstaVivo()
@@ -81,11 +82,6 @@ public class Vida : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Inimigo") && player) // E player
-        {
-            LevarDano(1);
-        }
-
-        if (collision.gameObject.CompareTag("Player") && !player) // E inimigo
         {
             LevarDano(1);
         }
@@ -115,7 +111,7 @@ public class Vida : MonoBehaviour
 
             if (boss && vidaAtual == 3)
             {
-                InimigoAnim.SetBool("EstahMorrendo", true);
+                InimigoAnim.SetTrigger("EstahMorrendo");
                 LevarDano(1);
             }
 

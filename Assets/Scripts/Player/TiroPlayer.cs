@@ -21,10 +21,10 @@ public class TiroPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Inimigo"))
+        if (collision.gameObject.CompareTag("Inimigo") || collision.gameObject.CompareTag("Piso"))
         {
             animator.SetBool("Desaparecer", true);
-            Destroy(gameObject, 0.5f);
+            Destroy(this.gameObject, 0.5f);
         }
     }
 }

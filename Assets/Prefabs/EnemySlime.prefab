@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8665902655362674251}
   - component: {fileID: 6435605535456934157}
   - component: {fileID: 8977412928126822225}
+  - component: {fileID: 1670626047957845580}
   m_Layer: 8
   m_Name: EnemySlime
   m_TagString: Inimigo
@@ -222,6 +223,27 @@ MonoBehaviour:
   camadaChao: {fileID: 4755458606823816075}
   alvo: {fileID: 0}
   boss: 0
+--- !u!114 &1670626047957845580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4448477070746766231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28a9e77c7899fd489916d7fa20a28b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaAtual: 0
+  vidaMaxima: 1
+  tempoDeDestruir: 1
+  player: 0
+  boss: 0
+  imageAnim: {fileID: 0}
+  PlayerAnim: {fileID: 0}
+  BossAnim: {fileID: 0}
+  InimigoAnim: {fileID: 8665902655362674251}
 --- !u!1 &4755458606823816075
 GameObject:
   m_ObjectHideFlags: 0
