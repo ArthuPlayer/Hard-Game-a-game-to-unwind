@@ -14,7 +14,6 @@ public class Vida : MonoBehaviour
     [SerializeField] private Animator PlayerAnim;
     [SerializeField] private Animator BossAnim;
     [SerializeField] private Animator InimigoAnim;
-    [SerializeField] private bool cenaBoss;
 
     private bool estahVivo = true;
 
@@ -60,10 +59,13 @@ public class Vida : MonoBehaviour
                 PlayerAnim.SetBool("Dead", true);
                 StartCoroutine(TempoReiniciar(tempoDeDestruir));
             }
+            else
+            {
+                InimigoAnim.SetBool("Morreu", true);
+            }
             estahVivo = true;
         }
     }
-
     public bool EstaVivo()
     {
         return estahVivo;
@@ -93,16 +95,6 @@ public class Vida : MonoBehaviour
             LevarDano(1);
         }
 
-        if (collision.gameObject.CompareTag("TiroPlayer") && !player)
-        {
-            if (boss)
-            {
-                //BossAnim.SetBool("LevouDano", true);
-                LevarDano(1);
-            }
-
-        }
-
         if (collision.gameObject.CompareTag("Trap") && player)
         {
             PlayerAnim.SetBool("Dead", true);
@@ -117,9 +109,21 @@ public class Vida : MonoBehaviour
             LevarDano(1);
         }
 
-        if (collision.gameObject.CompareTag("Player") && !player) // E inimigo
+        if (collision.gameObject.CompareTag("TiroPlayer") && !player) // E inimigo
         {
             LevarDano(1);
+
+            if (boss && vidaAtual == 3)
+            {
+                InimigoAnim.SetBool("EstahMorrendo", true);
+                LevarDano(1);
+            }
+
+            if (boss && vidaAtual <= 0)
+            {
+                vidaAtual = 0;
+                InimigoAnim.SetBool("Morreu", true);
+            }
         }
 
         if (collision.gameObject.CompareTag("Tiro") && player) // E player
