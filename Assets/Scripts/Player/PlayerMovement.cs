@@ -34,8 +34,8 @@ public class PlayerMovement : MonoBehaviour
     // Chamados nos butoes
     public void MoveLeft()
     {
-        moveInput = -1 ;
-        sprite.flipX = true;
+        moveInput = -1;
+        transform.localScale = new Vector3(-1, 1, 1);
         animator.SetBool("Run", true);
         Debug.Log("O butao de mover pra esquerda esta funcionando");
         Debug.Log("MoveInput: " + moveInput);
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
     public void MoveRight()
     {
         moveInput = 1;
-        sprite.flipX = false;
+        transform.localScale = new Vector3(1, 1, 1);
         animator.SetBool("Run", true);
         Debug.Log("O butao de mover pra direita esta funcionando");
         Debug.Log("MoveInput: " + moveInput);

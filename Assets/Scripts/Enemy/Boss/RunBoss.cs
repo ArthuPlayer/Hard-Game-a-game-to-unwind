@@ -3,7 +3,9 @@ using UnityEngine;
 public class RunBoss : MonoBehaviour
 {
     [SerializeField] private float velocidade;
+    [SerializeField] private float raio;
     [SerializeField] private GameObject alvo;
+    [SerializeField] private LayerMask playerMask;
     private Animator animator;
     private SpriteRenderer sprite;
 
@@ -25,19 +27,28 @@ public class RunBoss : MonoBehaviour
 
     public void Corrida()
     {
-        animator.SetBool("Run", true);
-        float direcao = alvo.transform.position.x - transform.position.x;
-
-        if (alvo.transform.position.x > transform.position.x)
+        if (EstahNoAlcance())
         {
-            sprite.flipX = false;
-        }
+            animator.SetBool("Run", true);
+            float direcao = alvo.transform.position.x - transform.position.x;
 
-        if (alvo.transform.position.x <  transform.position.x)
-        {
-            sprite.flipX = true;
-        }
+            if (alvo.transform.position.x > transform.position.x)
+            {
+                sprite.flipX = false;
+            }
 
-        transform.position += new Vector3(direcao * velocidade * Time.deltaTime, 0, 0);
+            if (alvo.transform.position.x < transform.position.x)
+            {
+                sprite.flipX = true;
+            }
+
+            transform.position += new Vector3(direcao * velocidade * Time.deltaTime, 0, 0);
+        }
+    }
+
+    private bool EstahNoAlcance()
+    {
+        bool estahAlcance = Physics2D.OverlapCircle(transform.position, raio, playerMask);
+        return estahAlcance;
     }
 }

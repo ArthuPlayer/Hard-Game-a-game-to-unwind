@@ -25,7 +25,7 @@ public class JumpEnemy : MonoBehaviour
             rb.AddForce(Vector2.up * forca);
         }
 
-        if (boss)
+        if (boss && EstaNoPiso())
         {
             Vector2 direcao = (alvo.transform.position - Vector3.down) - transform.position;
             rb.AddForce(direcao * forca, ForceMode2D.Impulse);

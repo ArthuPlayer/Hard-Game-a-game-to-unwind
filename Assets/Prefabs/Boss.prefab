@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 358051886321452958}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.101, y: -0.226, z: 0}
+  m_LocalPosition: {x: 0.1, y: -1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4235640032880658749}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,8 +65,8 @@ Transform:
   m_GameObject: {fileID: 829330763765538294}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.977, y: -2.615, z: 0.091287}
-  m_LocalScale: {x: 6.9488864, y: 6.9488864, z: 6.9488864}
+  m_LocalPosition: {x: 2.8684, y: -2.5822, z: 0.091287}
+  m_LocalScale: {x: 8.630867, y: 7.246902, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4155463177396197224}
@@ -121,7 +121,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.21, y: 0.36}
+  m_Size: {x: 0.94757766, y: 3.0368965}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -161,8 +161,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.1021507, y: -0.076421574}
-  m_Size: {x: 0.12286117, y: 0.32931426}
+  m_Offset: {x: 0.012076718, y: 0.0024811726}
+  m_Size: {x: 0.08529903, y: 0.3288403}
   m_Direction: 0
 --- !u!50 &9037717291322818860
 Rigidbody2D:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d94cda9f84b3d4441b5275e4faff488a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forca: 5
+  forca: 3
   chao:
     serializedVersion: 2
     m_Bits: 8
@@ -246,7 +246,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.5
+  raio: 10
   alvo: {fileID: 0}
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &6597441598443668353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,7 +281,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   tempoDeAtirar: 0
-  tempoMaximo: 2.5
+  tempoMaximo: 10
   tiroPrefab: {fileID: 5800215248742231178, guid: 018b695c8475d83408a1f432a4b7a295, type: 3}
   Boss: 1
 --- !u!114 &4235640032880658749

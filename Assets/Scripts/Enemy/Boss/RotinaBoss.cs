@@ -42,7 +42,7 @@ public class RotinaBoss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && tempoDeTocar >= 3) // Toca no Player e inicia a rotina
+        if (collision.gameObject.CompareTag("Player") && tempoDeTocar >= 2) // Toca no Player e inicia a rotina
         {
             tempoDeTocar = 0;
             StartCoroutine(OrganizaTarefas());
@@ -51,7 +51,7 @@ public class RotinaBoss : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && tempoDeTocar >= 5) // Toca no Player e inicia a rotina
+        if (collision.gameObject.CompareTag("Player") && tempoDeTocar >= 2) // Toca no Player e inicia a rotina
         {
             tempoDeTocar = 0;
             StartCoroutine(OrganizaTarefas());

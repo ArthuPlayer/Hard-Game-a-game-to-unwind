@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -157,10 +157,10 @@ TextureImporter:
       name: Cyborg_run_attack_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 0
-        width: 22
-        height: 33
+        width: 20
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: Cyborg_run_attack_1
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 0
-        width: 24
-        height: 32
+        width: 22
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +201,10 @@ TextureImporter:
       name: Cyborg_run_attack_2
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 0
         width: 38
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Cyborg_run_attack_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 144
         y: 0
-        width: 35
-        height: 33
+        width: 33
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,10 +245,10 @@ TextureImporter:
       name: Cyborg_run_attack_4
       rect:
         serializedVersion: 2
-        x: 194
+        x: 195
         y: 0
-        width: 25
-        height: 32
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: Cyborg_run_attack_5
       rect:
         serializedVersion: 2
-        x: 245
+        x: 246
         y: 0
-        width: 21
-        height: 32
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dcd1a7ce375cdab4b8c2da0031890590
     internalID: 0
     vertices: []
     indices: 
