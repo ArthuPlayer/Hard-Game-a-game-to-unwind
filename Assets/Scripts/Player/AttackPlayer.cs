@@ -7,6 +7,10 @@ public class AttackPlayer : MonoBehaviour
     [SerializeField] private float tempoTiro;
     [SerializeField] private float couldownTiro;
 
+    void Start()
+    {
+        tempoTiro = couldownTiro;
+    }
     void Update()
     {
         tempoTiro += Time.deltaTime;

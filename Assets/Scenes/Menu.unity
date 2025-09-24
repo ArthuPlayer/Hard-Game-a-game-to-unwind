@@ -369,11 +369,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 354704749316069783, guid: 4c878a22897934445887a638dee762b9, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7289309105829618737, guid: 4c878a22897934445887a638dee762b9, type: 3}
       propertyPath: m_Name
       value: BarreiraInimigo2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7289309105829618737, guid: 4c878a22897934445887a638dee762b9, type: 3}
+      propertyPath: m_TagString
+      value: ParedeEsquerda
       objectReference: {fileID: 0}
     - target: {fileID: 7972892966413361721, guid: 4c878a22897934445887a638dee762b9, type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,10 +10,6 @@ public class TiroPlayer : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, tempoDestruir);
-
-        if (tempoDestruir > 1)
-            animator.SetBool("Desaparecer", true);
-
         direcao = transform.localScale.x;
     }
 
@@ -35,16 +31,12 @@ public class TiroPlayer : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Inimigo") || collision.gameObject.CompareTag("Piso"))
         {
             animator.SetBool("Desaparecer", true);
-            Destroy(this.gameObject, 1f);
+            Destroy(gameObject, 0.5f);
         }
     }
 }
