@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.42, y: -3.52, z: -8.419232}
-  m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,8 +84,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 6.24, y: 4}
+  m_DrawMode: 1
+  m_Size: {x: 1.5, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -174,8 +174,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.16654652, y: 0.10177784}
-  m_Radius: 1.3342526
+  m_Offset: {x: 0.036358416, y: 0.07173371}
+  m_Radius: 0.30276108
 --- !u!114 &1709335439449842627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +189,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 11
-  tempoDestruir: 1
+  tempoDestruir: 0.5
   animator: {fileID: 3721703987211438791}
-  player: {fileID: 6061465835013248750, guid: fac0a0554f75591409af266fe1c1ce29, type: 3}

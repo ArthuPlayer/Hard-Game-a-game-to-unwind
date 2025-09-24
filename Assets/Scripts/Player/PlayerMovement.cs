@@ -10,14 +10,14 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private SpriteRenderer sprite;
     private Vida vida;
-    private Rigidbody2D rb;
+    private AttackPlayer attack;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         vida = GetComponent<Vida>();
-        rb = GetComponent<Rigidbody2D>();
+        attack = GetComponent<AttackPlayer>();
     }
 
     // Update is called once per frame

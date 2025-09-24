@@ -10,14 +10,29 @@ public class AttackPlayer : MonoBehaviour
     void Update()
     {
         tempoTiro += Time.deltaTime;
+
+        if (transform.localScale.x == -1)
+        {
+            tiroPrefab.GetComponent<Transform>();
+            tiroPrefab.transform.localScale = transform.localScale;
+        }
+
+        if (transform.localScale.x == 1)
+        {
+            tiroPrefab.GetComponent<Transform>();
+            tiroPrefab.transform.localScale = transform.localScale;
+        }
     }
 
     public void TiroPlayer()
     {
         if (tempoTiro >= couldownTiro)
-        {
+        {           
             tempoTiro = 0;
             Instantiate(tiroPrefab, miraPrefab.position, transform.rotation);
         }
     }
+
+
+
 }
