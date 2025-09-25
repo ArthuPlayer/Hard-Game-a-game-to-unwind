@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Vida : MonoBehaviour
 {
-    [SerializeField] private int vidaAtual;
+    [Header("Definir a vida e 0 tempo de Destruir")]
+    private int vidaAtual;
     [SerializeField] private int vidaMaxima = 2;
     [SerializeField] private float tempoDeDestruir = 1f;
+    [Header("Verificar se e o jogador ou o boss")]
     [SerializeField] private bool player;
     [SerializeField] private bool boss;
+    [Header("Referencias de animacoes")]
     [SerializeField] private Animator imageAnim;
     [SerializeField] private Animator PlayerAnim;
     [SerializeField] private Animator BossAnim;
@@ -59,24 +62,37 @@ public class Vida : MonoBehaviour
                 PlayerAnim.SetBool("Dead", true);
                 StartCoroutine(TempoReiniciar(tempoDeDestruir));
             }
-            else
+            else if (!player && !boss)
             {
                 InimigoAnim.SetBool("Morreu", true);
                 Destroy(gameObject, 0.5f);
             }
+            else
+            {
+                BossAnim.SetBool("Morreu", true);
+                StartCoroutine(TempoReiniciar(tempoDeDestruir));
+            }
             estahVivo = false;
         }
     }
+
     public bool EstaVivo()
     {
         return estahVivo;
     }
 
-
     IEnumerator TempoReiniciar(float tempo)
     {
-        yield return new WaitForSeconds(tempo);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (player && !boss)
+        {
+            yield return new WaitForSeconds(tempo);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else if (!player && boss)
+        {
+            yield return new WaitForSeconds(tempo);
+            SceneManager.LoadScene("Continua");
+        }        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -111,14 +127,8 @@ public class Vida : MonoBehaviour
 
             if (boss && vidaAtual == 3)
             {
-                InimigoAnim.SetTrigger("EstahMorrendo");
+                BossAnim.SetTrigger("EstahMorrendo");
                 LevarDano(1);
-            }
-
-            if (boss && vidaAtual <= 0)
-            {
-                vidaAtual = 0;
-                InimigoAnim.SetBool("Morreu", true);
             }
         }
 

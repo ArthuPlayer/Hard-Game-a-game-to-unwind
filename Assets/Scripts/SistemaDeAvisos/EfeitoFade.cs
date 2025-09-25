@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EfeitoFade : MonoBehaviour
 {
-    [SerializeField] private float tempoDestruir;
+    private float tempoDestruir;
 
     // Update is called once per frame
     void Update()

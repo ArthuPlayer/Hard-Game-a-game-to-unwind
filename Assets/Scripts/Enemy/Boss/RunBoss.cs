@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class RunBoss : MonoBehaviour
@@ -8,11 +9,13 @@ public class RunBoss : MonoBehaviour
     [SerializeField] private LayerMask playerMask;
     private Animator animator;
     private SpriteRenderer sprite;
+    private Vida vida;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        vida = GetComponent<Vida>();
 
         if (alvo == null)
         {
@@ -27,7 +30,7 @@ public class RunBoss : MonoBehaviour
 
     public void Corrida()
     {
-        if (EstahNoAlcance())
+        if (EstahNoAlcance() && vida.EstaVivo())
         {
             animator.SetBool("Run", true);
             float direcao = alvo.transform.position.x - transform.position.x;

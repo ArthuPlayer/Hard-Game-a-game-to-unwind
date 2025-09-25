@@ -1,8 +1,6 @@
 using System.Collections;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class EscreveTexto : MonoBehaviour
 {
@@ -33,12 +31,6 @@ public class EscreveTexto : MonoBehaviour
         }
     }
 
-    void Awake()
-    {
-
-        //butaoRestart.SetActive(false);
-    }
-
     void Update()
     {
         if (texto.text != "")
@@ -57,7 +49,6 @@ public class EscreveTexto : MonoBehaviour
     {
         if (other.CompareTag("Player") && !escrevendo && indiceMensagem == 0)
         {
-            //imagem.SetActive(true);
             StartCoroutine(DigitarTexto());
         }
     }

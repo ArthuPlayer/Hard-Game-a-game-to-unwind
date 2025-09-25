@@ -161,8 +161,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.012076718, y: 0.0024811726}
-  m_Size: {x: 0.08529903, y: 0.3288403}
+  m_Offset: {x: 0.012076719, y: -0.0016123999}
+  m_Size: {x: 0.08529903, y: 0.33702728}
   m_Direction: 0
 --- !u!50 &9037717291322818860
 Rigidbody2D:
@@ -282,7 +282,7 @@ MonoBehaviour:
     m_Bits: 128
   tempoDeAtirar: 0
   tempoMaximo: 10
-  tiroPrefab: {fileID: 5800215248742231178, guid: 018b695c8475d83408a1f432a4b7a295, type: 3}
+  tiroPrefab: {fileID: 5800215248742231178, guid: f7830d9327ebc2445b589e1f15faa1e2, type: 3}
   Boss: 1
 --- !u!114 &4235640032880658749
 MonoBehaviour:
@@ -296,7 +296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e28a9e77c7899fd489916d7fa20a28b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaAtual: 0
   vidaMaxima: 11
   tempoDeDestruir: 1
   player: 0
